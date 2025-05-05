@@ -1,0 +1,126 @@
+@import 'variables.scss';
+@import 'mixins.scss';
+
+@keyframes buttonPress {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0.75);
+    }
+}
+
+@keyframes growth {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.2);
+    }
+}
+
+#root {
+    margin: 0 auto;
+    text-align: center;
+    font-family: $main-font;
+}
+
+body {
+    margin: 0;
+    background-color: $main-color;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-bottom: 100px;
+
+    .fa-bars {
+        @include neon($contour-shawdow);
+        font-size: 40px;
+        position: relative;
+        top: 30px;
+        right: 80px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+.presentation {
+    position: absolute;
+    top: 70px;
+    left: 15%;
+    z-index: 2;
+
+    h1 {
+        color: $secondary-text;
+        font-weight: 200;
+        font-size: 30px;
+        margin: 0 0 25px 0;
+    }
+
+    button {
+        @include button-style();
+    }
+}
+
+.Logo {
+    color: $main-text;
+    font-size: 60px;
+    font-weight: 500;
+    margin: 0 0 20px 0;
+
+    &:hover {
+        cursor: default;
+    }
+}
+
+.background {
+    position: relative;
+
+    img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100px;
+        background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.9));
+        pointer-events: none;
+    }
+}
+
+.about {
+    margin: 70px auto;
+    padding: 10px 20px 10px 20px;
+    width: 85%;
+    border: 8px solid $secondary-text;
+    border-radius: 15px;
+    @include neon-border-full($contour-shawdow);
+    overflow: hidden;
+    word-wrap: break-word;
+
+    p, h2 {
+        color: $main-text;
+        font-size: 25px;
+    }
+}
+
+footer {
+    background-color: $second-color;
+    padding: 16px 0 16px 0;
+
+    p {
+        color: $main-text;
+        margin: 0;
+    }
+}
