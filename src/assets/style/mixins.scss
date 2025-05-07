@@ -1,5 +1,5 @@
 @mixin normal-shadow {
-    box-shadow: 0px 4px 6px $contour-shawdow;
+    box-shadow: 4px 4px 6px 2px $main-text;
 }
 
 @mixin neon($color, $intensity: 0.7) {

@@ -9,11 +9,11 @@
     },
     {
       "id": "projet2",
-      "title": "Blog avec API Node.js",
-      "description": "Blog dynamique avec backend Node.js, Express et base de données MongoDB.",
+      "title": "A voir",
+      "description": "Indéterminé",
       "technologies": ["React", "CSS", "JavaScript", "Node.js"],
       "image": "à ajourer",
       "github": "à ajouter"
     }
-  ]
+]
   

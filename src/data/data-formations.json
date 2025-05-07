@@ -1,0 +1,20 @@
+[
+    {
+      "id": "forma1",
+      "title": "Autodidacte",
+      "description": "Apprentissage autonome du développement web, avec une volonté d’apprentissage continue.",
+      "date": "2023-"
+    },
+    {
+      "id": "forma2",
+      "title": "Openclassroom",
+      "description": "Formation intégrateur web composé de 12 projets professionalisants réalisé sur une période de 9 mois.",
+      "date": "2024-2025"
+    },
+    {
+      "id": "forma3",
+      "title": "Baccalauréat",
+      "description": "Bac Général (Spécialité Anglais LLCE, Mathématiques et Sviences Physiques) Mention assez bien.",
+      "date": "2020-2023"
+    }
+]

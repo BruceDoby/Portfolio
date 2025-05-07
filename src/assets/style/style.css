@@ -11,7 +11,15 @@
     transform: scale(1);
   }
   100% {
-    transform: scale(1.2);
+    transform: scale(1.1);
+  }
+}
+@keyframes growth-icon {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.3);
   }
 }
 #root {
@@ -104,7 +112,7 @@ header .fa-bars:hover {
 }
 
 .about {
-  margin: 70px auto;
+  margin: 70px 80px 100px 80px;
   padding: 10px 20px 10px 20px;
   width: 85%;
   border: 8px solid #f2f2f2;
@@ -116,6 +124,175 @@ header .fa-bars:hover {
 .about p, .about h2 {
   color: #39ff14;
   font-size: 25px;
+}
+
+.formations__h1 {
+  color: #f2f2f2;
+  color: #f2f2f2;
+  text-shadow: 0 0 5px rgba(57, 255, 20, 0.7), 0 0 10px rgba(57, 255, 20, 0.7), 0 0 20px rgba(57, 255, 20, 0.7), 0 0 40px rgba(57, 255, 20, 0.7), 0 0 80px rgba(57, 255, 20, 0.7);
+}
+
+.formations {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.formations h2 {
+  color: #f2f2f2;
+  font-weight: 700;
+}
+.formations p, .formations time {
+  color: #aaaaaa;
+}
+
+.formation {
+  margin: 0 auto;
+  padding: 0 10px 20px 30px;
+  width: 25%;
+  border: 2px solid rgba(57, 255, 20, 0.5019607843);
+  border-radius: 35px;
+  text-align: left;
+  box-shadow: 4px 4px 6px 2px #39ff14;
+}
+.formation:hover {
+  animation: growth 0.8s forwards;
+}
+
+.contact {
+  position: relative;
+}
+.contact .contact__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  position: absolute;
+  bottom: 25%;
+  z-index: 2;
+  width: 100%;
+}
+.contact .contact__info h2 {
+  font-size: 22px;
+  color: #f2f2f2;
+  color: #f2f2f2;
+  text-shadow: 0 0 5px rgba(57, 255, 20, 0.7), 0 0 10px rgba(57, 255, 20, 0.7), 0 0 20px rgba(57, 255, 20, 0.7), 0 0 40px rgba(57, 255, 20, 0.7), 0 0 80px rgba(57, 255, 20, 0.7);
+  margin-bottom: 0;
+}
+.contact .contact__info button {
+  font-family: "Fira Code", monospace;
+  color: #f2f2f2;
+  background-color: #0a0a0a;
+  box-shadow: 0 0 5px rgba(57, 255, 20, 0.7), 0 0 10px rgba(57, 255, 20, 0.7), 0 0 15px rgba(57, 255, 20, 0.7), 0 0 20px rgba(57, 255, 20, 0.7);
+  padding: 5px 20px 5px 20px;
+  border: 3px solid #39ff14;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+  width: 20%;
+  padding: 15px 10px 15px 10px;
+  border-radius: 15px;
+}
+.contact .contact__info button:hover {
+  cursor: pointer;
+  background-color: #1e1e1e;
+}
+.contact .contact__info button:active {
+  animation: buttonPress 0.5s ease;
+}
+.contact::after {
+  content: "";
+  position: absolute;
+  top: -90px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to bottom, transparent, rgba(9, 9, 9, 0.948));
+  pointer-events: none;
+}
+
+.my-mail {
+  color: #aaaaaa;
+  background-color: #1e1e1e;
+  font-size: 23px;
+  width: 40%;
+  border-radius: 7px;
+  margin-bottom: 30px;
+}
+
+.background2 {
+  position: relative;
+  top: 5px;
+}
+.background2 img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+/* .stack {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right: 10%;
+    z-index: 2;
+    border: 2px solid $main-text;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+
+    h2, i {
+        color: $main-text;
+        margin: 0;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    i {
+        font-size: 30px;
+    }
+}
+
+.devicons {
+    display: grid;
+    grid-template-columns: 10px 10px;
+    grid-template-rows: 10px 10px;
+    gap: 30px;
+} */
+.devicons {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px 30px 10px;
+}
+.devicons .devicon {
+  color: #39ff14;
+  font-size: 30px;
+}
+.devicons .devicon:hover {
+  animation: growth-icon 0.4s forwards;
+}
+
+.stack {
+  border: 2px solid #39ff14;
+  width: 180px;
+  height: 80px;
+  margin: 0;
+  position: absolute;
+  top: 130px;
+  right: 50px;
+  z-index: 2;
+}
+.stack h2 {
+  position: relative;
+  margin: 0 auto;
+  bottom: 20px;
+  color: #39ff14;
+  max-width: 80px;
+  background-color: black;
 }
 
 footer {
