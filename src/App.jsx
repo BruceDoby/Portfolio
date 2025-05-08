@@ -6,6 +6,7 @@ import About from './components/about'
 import Formations from './components/formations'
 import Contact from './components/contact'
 import Stack from './components/stack'
+import Projects from './components/project'
 
 function App() {
   const handleScrollToContact = () => {
@@ -30,6 +31,7 @@ function App() {
       </div>
       <About />
       <Formations />
+      <Projects />
       <Contact />
     </main>
     <Footer />

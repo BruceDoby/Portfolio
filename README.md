@@ -1,12 +1,11 @@
-# React + Vite
+# Mon Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sur ce site il s'agit de mon portfolio recensant un certains nombre de choses comme mes formations ou les projets sur lesquels j'ai travaillé et me sert également à me présenter.
 
-Currently, two official plugins are available:
+# Démarrage
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Pour démarrer l'application : 
+- Dans son terminal, se placer dans le dossier du projet
+- Effectuer avant tout la commande npm install
+- Puis une fois fait effectuer la commande npm run dev
+- Cliquer sur le lien localhost présenté dans le terminal une fois l'opération réussie

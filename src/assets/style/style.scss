@@ -28,6 +28,19 @@
     }
 }
 
+@keyframes rotate360 {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 #root {
     margin: 0 auto;
     text-align: center;
@@ -133,7 +146,7 @@ header {
     display: flex;
     flex-direction: row;
     margin-top: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 
     h2 {
         color: $secondary-text;
@@ -220,39 +233,6 @@ header {
     }
 }
 
-/* .stack {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
-    right: 10%;
-    z-index: 2;
-    border: 2px solid $main-text;
-    width: 100px;
-    height: 100px;
-    padding: 10px;
-
-    h2, i {
-        color: $main-text;
-        margin: 0;
-    }
-
-    h2 {
-        font-size: 18px;
-    }
-
-    i {
-        font-size: 30px;
-    }
-}
-
-.devicons {
-    display: grid;
-    grid-template-columns: 10px 10px;
-    grid-template-rows: 10px 10px;
-    gap: 30px;
-} */
-
 .devicons {
     display: flex;
     justify-content: space-between;
@@ -285,6 +265,102 @@ header {
         color: $main-text;
         max-width: 80px;
         background-color: $main-color;
+    }
+}
+
+.projects {
+    margin-bottom: 100px;
+}
+
+.project__pres {
+    margin-bottom: 50px;
+
+    h1 {
+        color: $second-color;
+        @include neon($contour-shawdow);
+    }
+
+    p {
+        color: $secondary-text;
+    }
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+}
+  
+.slider__image {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    transition: transform 1s ease;
+
+    img {
+        object-fit: contain;
+    }
+}
+  
+.slider__dots {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 8px;
+}
+  
+.slider__dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: $dot-color;
+    transition: background-color 0.3s;
+}
+  
+.slider__dot.active {
+    background-color: $main-text;
+}
+
+.project__blocs {
+    position: relative;
+    right: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 600px);
+    justify-content: center;
+    margin-top: 110px;
+    gap: 130px;
+}
+
+.project {
+    padding: 0 10px 20px 30px;
+    width: 100%;
+    background-color: $main-color;
+    border: 2px solid $contour-shawdow;
+    border-radius: 35px;
+    text-align: left;
+    z-index: 2;
+    @include normal-shadow;
+
+    &:hover {
+        animation: rotate360 2s forwards;
+    }
+
+    h2 {
+        color: $secondary-text;
+        font-weight: 700;
+    }
+
+    p {
+        color: $main-grey;
+    }
+
+    a {
+        color: $link-color;
+        text-decoration: none;
     }
 }
 
