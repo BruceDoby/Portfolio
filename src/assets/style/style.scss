@@ -55,8 +55,12 @@ body {
 header {
     display: flex;
     align-items: center;
-    justify-content: end;
-    margin-bottom: 100px;
+    justify-content: flex-end;
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
 
     .fa-bars {
         @include neon($contour-shawdow);
@@ -68,6 +72,13 @@ header {
         &:hover {
             cursor: pointer;
         }
+    }
+
+    .language__button {
+        @include button-style;
+        position: absolute;
+        right: 10%;
+        top: 34px;
     }
 }
 
@@ -102,6 +113,7 @@ header {
 
 .background {
     position: relative;
+    margin-top: 100px;
 
     img {
         width: 100%;
@@ -210,6 +222,26 @@ header {
         height: 100px;
         background: linear-gradient(to bottom, transparent, rgba(9, 9, 9, 0.948));
         pointer-events: none;
+    }
+}
+
+.net__links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    margin-bottom: 30px;
+    gap: 40px;
+
+    a {
+        text-decoration: none;
+        color: $link-color;
+        font-size: 50px;
+
+        &:hover {
+            animation: growth 0.5s forwards;
+        }
     }
 }
 
@@ -362,6 +394,55 @@ header {
         color: $link-color;
         text-decoration: none;
     }
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  right: -250px;
+  width: 250px;
+  height: 100%;
+  background-color: $card-back;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 4;
+  transition: right 0.3s ease;
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    li {
+        margin: 100px 0;
+    }
+
+    a {
+        color: $secondary-text;
+        text-decoration: none;
+        font-size: 25px;
+        cursor: pointer;
+    }
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 3;
+}
+
+.fa-xmark {
+    position: absolute;
+    top: 30px;
+    left: 10%;
+    font-size: 40px;
+    color: $secondary-text;
+    cursor: pointer;
 }
 
 footer {

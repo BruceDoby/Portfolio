@@ -1,4 +1,5 @@
-[
+{
+  "fr": [
     {
       "id": "projet1",
       "title": "Projet 7",
@@ -35,5 +36,44 @@
       ],
       "github": "https://github.com/BruceDoby/ArgentBank"
     }
-]
+  ],
+  "en": [
+    {
+      "id": "projet1",
+      "title": "Project 7",
+      "description": "Create a real estate rental web application with React",
+      "technologies": ["React", "SCSS", "JavaScript", "Node.js"],
+      "images": [
+        "/p7-1.PNG",
+        "/p7-2.PNG",
+        "/p7-3.PNG"
+      ],
+      "github": "https://github.com/BruceDoby/kasa-project/tree/main"
+    },
+    {
+      "id": "projet2",
+      "title": "Project 9",
+      "description": "Debug an event agency's website",
+      "technologies": ["React", "SCSS", "JavaScript", "Node.js", "ReactDevTools"],
+      "images": [
+        "/p9-1.PNG",
+        "/p9-2.PNG",
+        "/p9-3.PNG"
+      ],
+      "github": "https://github.com/BruceDoby/724events"
+    },
+    {
+      "id": "projet3",
+      "title": "Project 10",
+      "description": "Implement the front-end of a bank application with React",
+      "technologies": ["React", "CSS", "JavaScript", "Node.js", "MongoDB"],
+      "images": [
+        "/p10-1.PNG",
+        "/p10-2.PNG",
+        "/p10-3.PNG"
+      ],
+      "github": "https://github.com/BruceDoby/ArgentBank"
+    }
+  ]
+}
   

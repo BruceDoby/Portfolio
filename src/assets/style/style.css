@@ -48,8 +48,12 @@ body {
 header {
   display: flex;
   align-items: center;
-  justify-content: end;
-  margin-bottom: 100px;
+  justify-content: flex-end;
+  width: 100%;
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  left: 0;
 }
 header .fa-bars {
   color: #f2f2f2;
@@ -61,6 +65,26 @@ header .fa-bars {
 }
 header .fa-bars:hover {
   cursor: pointer;
+}
+header .language__button {
+  font-family: "Fira Code", monospace;
+  color: #f2f2f2;
+  background-color: #0a0a0a;
+  box-shadow: 0 0 5px rgba(57, 255, 20, 0.7), 0 0 10px rgba(57, 255, 20, 0.7), 0 0 15px rgba(57, 255, 20, 0.7), 0 0 20px rgba(57, 255, 20, 0.7);
+  padding: 5px 20px 5px 20px;
+  border: 3px solid #39ff14;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+  position: absolute;
+  right: 10%;
+  top: 34px;
+}
+header .language__button:hover {
+  cursor: pointer;
+  background-color: #1e1e1e;
+}
+header .language__button:active {
+  animation: buttonPress 0.5s ease;
 }
 
 .presentation {
@@ -105,6 +129,7 @@ header .fa-bars:hover {
 
 .background {
   position: relative;
+  margin-top: 100px;
 }
 .background img {
   width: 100%;
@@ -221,6 +246,24 @@ header .fa-bars:hover {
   height: 100px;
   background: linear-gradient(to bottom, transparent, rgba(9, 9, 9, 0.948));
   pointer-events: none;
+}
+
+.net__links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  margin-bottom: 30px;
+  gap: 40px;
+}
+.net__links a {
+  text-decoration: none;
+  color: #f47fff;
+  font-size: 50px;
+}
+.net__links a:hover {
+  animation: growth 0.5s forwards;
 }
 
 .my-mail {
@@ -364,6 +407,52 @@ header .fa-bars:hover {
 .project a {
   color: #f47fff;
   text-decoration: none;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  right: -250px;
+  width: 250px;
+  height: 100%;
+  background-color: #1e1e1e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 4;
+  transition: right 0.3s ease;
+}
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+}
+.navbar li {
+  margin: 100px 0;
+}
+.navbar a {
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 3;
+}
+
+.fa-xmark {
+  position: absolute;
+  top: 30px;
+  left: 10%;
+  font-size: 40px;
+  color: #f2f2f2;
+  cursor: pointer;
 }
 
 footer {
