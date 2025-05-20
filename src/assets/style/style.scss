@@ -378,7 +378,7 @@ header {
     @include normal-shadow;
 
     &:hover {
-        animation: rotate360 2s forwards;
+        animation: growth 0.8s forwards;
     }
 
     h2 {
@@ -454,3 +454,5 @@ footer {
         margin: 0;
     }
 }
+
+@import 'responsive.scss';

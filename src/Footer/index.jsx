@@ -3,7 +3,7 @@ function Footer() {
         <>
         <footer>
             <div>
-                <p>Copyright© 2025 Bruce Doby | version 0.3.1</p>
+                <p>Copyright© 2025 Bruce Doby | version 0.4.1</p>
             </div>
         </footer>
         </>

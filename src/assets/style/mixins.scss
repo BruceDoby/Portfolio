@@ -61,4 +61,20 @@
     &:active {
         animation: buttonPress 0.5s ease;
     }
+
+    @media (max-width: 1024px) {
+        font-size: 12px;
+    }
+
+    @media (max-width: 768px) {
+        font-size: 10px;
+    }
+
+    @media (max-width: 576px) {
+        font-size: 8px;
+    }
+
+    @media (max-width: 376px) {
+        font-size: 6px;
+    }
 }

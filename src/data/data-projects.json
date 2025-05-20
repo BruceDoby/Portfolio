@@ -2,6 +2,18 @@
   "fr": [
     {
       "id": "projet1",
+      "title": "Projet 6",
+      "description": "Créer une page web dynamique avec JavaScript",
+      "technologies": ["CSS", "JavaScript", "Node.js"],
+      "images": [
+        "/p6-1.PNG",
+        "/p6-2.PNG",
+        "/p6-3.PNG"
+      ],
+      "github": "https://github.com/BruceDoby/Sophie-Bluel"
+    },
+    {
+      "id": "projet2",
       "title": "Projet 7",
       "description": "Créer une application web de location immobilière avec React",
       "technologies": ["React", "SCSS", "JavaScript", "Node.js"],
@@ -13,7 +25,7 @@
       "github": "https://github.com/BruceDoby/kasa-project/tree/main"
     },
     {
-      "id": "projet2",
+      "id": "projet3",
       "title": "Projet 9",
       "description": "Débugger le site d'une agence évènementiel",
       "technologies": ["React", "SCSS", "JavaScript", "Node.js", "ReactDevTools"],
@@ -25,7 +37,7 @@
       "github": "https://github.com/BruceDoby/724events"
     },
     {
-      "id": "projet3",
+      "id": "projet4",
       "title": "Projet 10",
       "description": "Implémenter le front-end d'une application bancaire avec React",
       "technologies": ["React", "CSS", "JavaScript", "Node.js", "MongoDB"],
@@ -40,6 +52,18 @@
   "en": [
     {
       "id": "projet1",
+      "title": "Project 6",
+      "description": "Create a dynamic web page with JavaScript",
+      "technologies": ["CSS", "JavaScript", "Node.js"],
+      "images": [
+        "/p6-1.PNG",
+        "/p6-2.PNG",
+        "/p6-3.PNG"
+      ],
+      "github": "https://github.com/BruceDoby/Sophie-Bluel"
+    },
+    {
+      "id": "projet2",
       "title": "Project 7",
       "description": "Create a real estate rental web application with React",
       "technologies": ["React", "SCSS", "JavaScript", "Node.js"],
@@ -51,7 +75,7 @@
       "github": "https://github.com/BruceDoby/kasa-project/tree/main"
     },
     {
-      "id": "projet2",
+      "id": "projet3",
       "title": "Project 9",
       "description": "Debug an event agency's website",
       "technologies": ["React", "SCSS", "JavaScript", "Node.js", "ReactDevTools"],
@@ -63,7 +87,7 @@
       "github": "https://github.com/BruceDoby/724events"
     },
     {
-      "id": "projet3",
+      "id": "projet4",
       "title": "Project 10",
       "description": "Implement the front-end of a bank application with React",
       "technologies": ["React", "CSS", "JavaScript", "Node.js", "MongoDB"],

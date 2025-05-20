@@ -1,0 +1,632 @@
+$breakpoint-mobile-xs: 320px;
+$breakpoint-mobile: 376px;
+$breakpoint-mobile-l: 428px;
+$breakpoint-mobile2: 576px;
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1024px;
+$breakpoint-desktop2: 1440px;
+
+@media screen and (max-width: $breakpoint-desktop2) {
+    .project__blocs {
+        grid-template-columns: repeat(2, 550px);
+    }
+}
+
+@media screen and (max-width: $breakpoint-desktop) {
+    .presentation {
+        left: 10%;
+
+        h1 {
+            font-size: 20px;
+            margin: 0 0 25px 0;
+        }
+    }
+
+    .Logo {
+        font-size: 50px;
+        margin: 0 0 20px 0;
+    }
+
+    header {
+        align-items: center;
+        justify-content: flex-end;
+        width: 100%;
+        top: 0;
+        left: 0;
+
+        .fa-bars {
+            font-size: 30px;
+            position: relative;
+            top: 30px;
+            right: 40px;
+            z-index: 4;
+        }
+
+        .language__button {
+            position: absolute;
+            right: 10%;
+            top: 30px;
+        }
+    }
+
+    .stack {
+        width: 160px;
+        height: 60px;
+        top: 120px;
+
+        h2 {
+            font-size: 20px;
+            bottom: 15px;
+            max-width: 65px;
+        }
+    }
+
+    .devicons {
+        position: relative;
+        bottom: 5px;
+
+        .devicon {
+            font-size: 25px;
+        }
+    }
+
+    .about {
+        margin: 70px 60px 100px 60px;
+        width: 83%;
+
+        p, h2 {
+            font-size: 18px;
+        }
+    }
+
+    .formations {
+        h2, p, time {
+            font-size: 15px;
+        }
+    }
+
+    .formation {
+        padding: 10px 10px 20px 20px;
+    }
+
+    .project {
+        width: 100%;
+
+        h2 {
+            font-size: 20px;
+        }
+
+        p, a {
+            font-size: 13px;
+        }
+    }
+
+    .project__blocs {
+        grid-template-columns: repeat(2, 380px);
+        gap: 130px;
+    }
+
+    .navbar {
+
+        li {
+            margin: 80px 0;
+        }
+
+        a {
+            font-size: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: $breakpoint-tablet) {
+    header {
+        .language__button {
+            right: 12%;
+            top: 30px;
+        }
+    }
+
+    .presentation {
+        left: 10%;
+
+        h1 {
+            font-size: 15px;
+            margin: 0 0 25px 0;
+        }
+    }
+
+    .Logo {
+        font-size: 30px;
+        margin: 0 0 20px 0;
+    }
+
+    .stack {
+        width: 140px;
+        height: 40px;
+        top: 100px;
+
+        h2 {
+            font-size: 17px;
+            bottom: 13px;
+            max-width: 55px;
+        }
+    }
+
+    .devicons {
+        position: relative;
+        bottom: 10px;
+
+        .devicon {
+            font-size: 20px;
+        }
+    }
+
+    .about {
+        margin: 70px 50px 100px 50px;
+        width: 80%;
+
+        p, h2 {
+            font-size: 15px;
+        }
+    }
+
+    .formations {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        margin-bottom: 100px;
+
+        h2, p, time {
+            font-size: 13px;
+        }
+    }
+
+    .formation {
+        width: 70%;
+        padding: 10px 10px 20px 20px;
+    }
+
+    .project__blocs {
+        display: flex;
+        flex-direction: column;
+        margin-top: 60px;
+        margin-bottom: 160px;
+        gap: 50px;
+        align-items: center;
+    }
+
+    .project {
+        width: 75%;
+        position: relative;
+        left: 20px;
+
+        h2 {
+            font-size: 15px;
+        }
+
+        p, a {
+            font-size: 10px;
+        }
+    }
+
+    .project__pres {
+        p {
+            width: 70%;
+            margin: 0 auto;
+        }
+    }
+
+    .contact {
+        .contact__info {
+            bottom: 0;
+            top: 25%;
+
+            h2 {
+                font-size: 16px;
+            }
+        }
+    }
+
+    .net__links {
+        a {
+            font-size: 40px;
+        }
+    }
+
+    .my-mail {
+        font-size: 16px;
+    }
+
+    .navbar {
+        li {
+            margin: 90px 0;
+        }
+
+        a {
+            font-size: 17px;
+        }
+    }
+
+    .fa-xmark {
+        font-size: 30px;
+    }
+
+    footer {
+        p {
+            
+            font-size: 13px;
+        }
+    }
+}
+
+@media screen and (max-width: $breakpoint-mobile2) {
+    header {
+        .fa-bars {
+            font-size: 25px;
+        }
+
+        .language__button {
+            right: 15%;
+        }
+    }
+
+    .presentation {
+        top: 50px;
+
+        h1 {
+            font-size: 13px;
+        }
+    }
+
+    .Logo {
+        font-size: 25px;
+    }
+
+    .stack {
+        width: 120px;
+        height: 40px;
+        top: 93px;
+
+        h2 {
+            font-size: 15px;
+            bottom: 12px;
+            max-width: 53px;
+        }
+    }
+
+    .devicons {
+        bottom: 7px;
+
+        .devicon {
+            font-size: 17px;
+        }
+    }
+
+    .about {
+        margin: 70px 40px 100px 40px;
+        width: 78%;
+
+        p, h2 {
+            font-size: 13px;
+        }
+    }
+
+    .formations__h1 {
+        font-size: 25px;
+    }
+
+    .project__pres {
+        h1 {
+            font-size: 25px;
+        }
+
+        p {
+            width: 80%;
+            font-size: 13px;
+        }
+    }
+
+    .project {
+        width: 65%;
+        padding: 0 10px 10px 20px;
+
+        h2 {
+            font-size: 13px;
+        }
+
+        p, a {
+            font-size: 10px;
+        }
+    }
+
+    .slider__image {
+        border-radius: 0;
+    }
+
+    .navbar {
+        width: 200px;
+    }
+
+    footer {
+        p {
+            font-size: 10px;
+        }
+    }
+}
+
+@media screen and (max-width: $breakpoint-mobile-l) {
+    header {
+        .fa-bars {
+            font-size: 25px;
+            right: 30px;
+        }
+    }
+
+    .presentation {
+        top: 40px;
+    }
+
+    .stack {
+        top: 85px;
+    }
+
+    .about {
+        margin: 70px 35px 100px 35px;
+        width: 72%;
+
+        p, h2 {
+            font-size: 11.5px;
+        }
+    }
+
+    .slider__image {
+        object-fit: contain;
+    }
+
+    .slider__dots {
+        bottom: 60px;
+    }
+
+    .my-mail {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+
+    .contact {
+        .contact__info {
+            margin-bottom: 70px;
+        }
+
+        .net__links {
+            margin-bottom: 5px;
+        }
+    }
+}
+
+@media screen and (max-width: $breakpoint-mobile) {
+    header {
+        .fa-bars {
+            font-size: 20px;
+            right: 20px;
+            top: 20px;
+        }
+
+        .language__button {
+            top: 19px;
+            right: 15%;
+        }
+    }
+
+    .presentation {
+        top: 40px;
+
+        h1 {
+            font-size: 10px;
+            margin-bottom: 10px;
+        }
+    }
+
+    .Logo {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .about {
+        margin: 50px 30px 70px 30px;
+        width: 70%;
+
+        p, h2 {
+            font-size: 10px;
+        }
+    }
+
+    .stack {
+        width: 90px;
+        height: 30px;
+        top: 80px;
+
+        h2 {
+            font-size: 12px;
+            bottom: 10px;
+            max-width: 40px;
+        }
+    }
+
+    .devicons {
+        bottom: 7px;
+
+        .devicon {
+            font-size: 13px;
+        }
+    }
+
+    .formations__h1 {
+        font-size: 20px;
+    }
+
+    .formations {
+        gap: 50px;
+        margin-bottom: 100px;
+
+        h2, p, time {
+            font-size: 10px;
+        }
+    }
+
+    .formation {
+        width: 65%;
+        padding: 10px 10px 10px 20px;
+        border-radius: 20px;
+    }
+
+    .project__pres {
+        margin-bottom: 0;
+
+        h1 {
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 10px;
+        }
+    }
+
+    .slider__image {
+        object-fit: contain;
+    }
+
+    .slider__dots {
+        bottom: 75px;
+    }
+
+    .project__blocs {
+        margin-top: 0;
+        margin-bottom: 100px;
+    }
+
+    .project {
+        border-radius: 20px;
+        width: 60%;
+        padding: 0 10px 10px 20px;
+
+        h2 {
+            font-size: 11px;
+        }
+
+        p, a {
+            font-size: 8px;
+        }
+    }
+
+    .contact {
+        .contact__info {
+            bottom: 0;
+            top: 30%;
+
+            h2 {
+                font-size: 12px;
+            }
+
+            button {
+                width: 30%;
+                padding: 10px 20px 10px 20px;
+            }
+        }
+    }
+
+    .net__links {
+        margin-bottom: 10px;
+
+        a {
+            font-size: 25px;
+        }
+    }
+
+    .my-mail {
+        margin-bottom: 10px;
+        font-size: 9px;
+    }
+
+    .navbar {
+        width: 150px;
+
+        li {
+            margin: 105px 0;
+        }
+
+        a {
+            font-size: 13px;
+        }
+    }
+
+    .fa-xmark {
+        font-size: 20px;
+    }
+
+    footer {
+        p {
+            font-size: 7px;
+        }
+    }
+}
+
+@media screen and (max-width: $breakpoint-mobile-xs) {
+    header {
+        .fa-bars {
+            right: 25px;
+        }
+
+        .language__button {
+            right: 17%;
+        }
+    }
+
+    .presentation {
+        top: 30px;
+    }
+
+    .stack {
+        top: 73px;
+        right: 30px;
+    }
+
+    .about {
+        margin: 50px 20px 70px 20px;
+        width: 70%;
+
+        p, h2 {
+            font-size: 8px;
+        }
+    }
+
+    .project__pres {
+        p {
+            width: 85%;
+        }
+    }
+
+    .slider {
+        margin-top: -20px;
+        margin-bottom: -20px;
+    }
+
+    .slider__dots {
+        bottom: 85px;
+    }
+
+    .contact {
+        .contact__info {
+            top: 40%;
+
+            button {
+                width: 40%;
+            }
+        }
+    }
+
+    footer {
+        p {
+            font-size: 5px;
+        }
+    }
+}
