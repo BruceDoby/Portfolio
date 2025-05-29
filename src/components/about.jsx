@@ -18,3 +18,7 @@ function About() {
 }
 
 export default About
+
+// Comme vu auparavant, récupération de la langue et de la fonction de changement de langue dans la 1ere const
+// La 2e const permets de choisir le contenu du fichier JSON correspondant à la langue actuelle, on affiche ensuite tout les paragraphes
+// avec .map en parcourant le tableau des paragraphes existant

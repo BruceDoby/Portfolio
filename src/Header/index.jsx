@@ -1,4 +1,3 @@
-// import { useState } from 'react';
 import { LanguageProvider, useLanguage } from '../components/Language-Provider';
 import LanguageToggle from '../functions/LanguageToggle';
 
@@ -14,3 +13,5 @@ function Header({ toggleNavbar }) {
 }
 
 export default Header
+
+// On passe la prop togglenavbar pour le onClick

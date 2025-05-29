@@ -29,7 +29,7 @@ function Projects() {
                         <h2>{item.title}</h2>
                         <p>{item.description}</p>
                         <p>{language === 'fr' ? 'Compétences : ' : 'Skills : '} {item.technologies.join(', ')}</p>
-                        <a href={item.github}>{language === 'fr' ? 'Lien vers le repo Github' : 'Link to the Github repository'}</a>
+                        <a href={item.github} title="Github">{language === 'fr' ? 'Lien vers le repo Github' : 'Link to the Github repository'}</a>
                     </div>
             ))}
             </div>
@@ -39,3 +39,8 @@ function Projects() {
 }
 
 export default Projects
+
+// la const project récupère les infos des data correspondant à la langue actuelle, s'il n'y en a pas un tableau vide est renvoyé
+// flatmap va permettre d'applatir tout les tableaux d'images présent dans les data en un seul pour avoir un seul slider contenant toutes
+// les images et join(, ) permets de transformer la tableau récupérer correspondant en une chaine de caractère où chaque élément est 
+// séparé par une virgule et un espace

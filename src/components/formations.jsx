@@ -23,3 +23,6 @@ function Formations() {
 }
 
 export default Formations
+
+// la const formations va nous permettre d'aller chercher les formations qui sont dans la bonne langue de la data
+// on crée ensuite un élément pour que élément du tableau parcouru dans le json avec .map

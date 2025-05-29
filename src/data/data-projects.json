@@ -6,9 +6,9 @@
       "description": "Créer une page web dynamique avec JavaScript",
       "technologies": ["CSS", "JavaScript", "Node.js"],
       "images": [
-        "/p6-1.PNG",
-        "/p6-2.PNG",
-        "/p6-3.PNG"
+        "/p6-1.webp",
+        "/p6-2.webp",
+        "/p6-3.webp"
       ],
       "github": "https://github.com/BruceDoby/Sophie-Bluel"
     },
@@ -18,9 +18,9 @@
       "description": "Créer une application web de location immobilière avec React",
       "technologies": ["React", "SCSS", "JavaScript", "Node.js"],
       "images": [
-        "/p7-1.PNG",
-        "/p7-2.PNG",
-        "/p7-3.PNG"
+        "/p7-1.webp",
+        "/p7-2.webp",
+        "/p7-3.webp"
       ],
       "github": "https://github.com/BruceDoby/kasa-project/tree/main"
     },
@@ -30,9 +30,9 @@
       "description": "Débugger le site d'une agence évènementiel",
       "technologies": ["React", "SCSS", "JavaScript", "Node.js", "ReactDevTools"],
       "images": [
-        "/p9-1.PNG",
-        "/p9-2.PNG",
-        "/p9-3.PNG"
+        "/p9-1.webp",
+        "/p9-2.webp",
+        "/p9-3.webp"
       ],
       "github": "https://github.com/BruceDoby/724events"
     },
@@ -42,9 +42,9 @@
       "description": "Implémenter le front-end d'une application bancaire avec React",
       "technologies": ["React", "CSS", "JavaScript", "Node.js", "MongoDB"],
       "images": [
-        "/p10-1.PNG",
-        "/p10-2.PNG",
-        "/p10-3.PNG"
+        "/p10-1.webp",
+        "/p10-2.webp",
+        "/p10-3.webp"
       ],
       "github": "https://github.com/BruceDoby/ArgentBank"
     }
@@ -56,9 +56,9 @@
       "description": "Create a dynamic web page with JavaScript",
       "technologies": ["CSS", "JavaScript", "Node.js"],
       "images": [
-        "/p6-1.PNG",
-        "/p6-2.PNG",
-        "/p6-3.PNG"
+        "/p6-1.webp",
+        "/p6-2.webp",
+        "/p6-3.webp"
       ],
       "github": "https://github.com/BruceDoby/Sophie-Bluel"
     },
@@ -68,9 +68,9 @@
       "description": "Create a real estate rental web application with React",
       "technologies": ["React", "SCSS", "JavaScript", "Node.js"],
       "images": [
-        "/p7-1.PNG",
-        "/p7-2.PNG",
-        "/p7-3.PNG"
+        "/p7-1.webp",
+        "/p7-2.webp",
+        "/p7-3.webp"
       ],
       "github": "https://github.com/BruceDoby/kasa-project/tree/main"
     },
@@ -80,9 +80,9 @@
       "description": "Debug an event agency's website",
       "technologies": ["React", "SCSS", "JavaScript", "Node.js", "ReactDevTools"],
       "images": [
-        "/p9-1.PNG",
-        "/p9-2.PNG",
-        "/p9-3.PNG"
+        "/p9-1.webp",
+        "/p9-2.webp",
+        "/p9-3.webp"
       ],
       "github": "https://github.com/BruceDoby/724events"
     },
@@ -92,9 +92,9 @@
       "description": "Implement the front-end of a bank application with React",
       "technologies": ["React", "CSS", "JavaScript", "Node.js", "MongoDB"],
       "images": [
-        "/p10-1.PNG",
-        "/p10-2.PNG",
-        "/p10-3.PNG"
+        "/p10-1.webp",
+        "/p10-2.webp",
+        "/p10-3.webp"
       ],
       "github": "https://github.com/BruceDoby/ArgentBank"
     }

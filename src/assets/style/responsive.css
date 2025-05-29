@@ -287,6 +287,9 @@
   .contact .contact__info {
     margin-bottom: 70px;
   }
+  .contact .contact__info .contact__button {
+    width: 25%;
+  }
   .contact .net__links {
     margin-bottom: 5px;
   }
@@ -388,7 +391,7 @@
   .contact .contact__info h2 {
     font-size: 12px;
   }
-  .contact .contact__info button {
+  .contact .contact__info .contact__button {
     width: 30%;
     padding: 10px 20px 10px 20px;
   }
@@ -452,7 +455,7 @@
   .contact .contact__info {
     top: 40%;
   }
-  .contact .contact__info button {
+  .contact .contact__info .contact__button {
     width: 40%;
   }
   footer p {

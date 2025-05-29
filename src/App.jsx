@@ -42,7 +42,7 @@ function App() {
       </div>
       <Stack />
       <div className='background'>
-        <img src={BackgroundImage} alt='Background image'></img>
+        <img src={BackgroundImage} alt='Background image' width="1440" height="730" fetchPriority="high"></img>
       </div>
       <Element name="about">
         <About />
@@ -63,3 +63,14 @@ function App() {
 }
 
 export default App
+
+// On importe Element venant de react-scroll permettant de marquer une section pour que l'on puisse y scroller
+// La fonction handleScrollContact va permettre de scroller jusqu'à la section contact lors de l'appui sur le bouton Contact, on récupère
+// ainsi l'élément au sein du DOM avec le get by id, on vérifie qu'il existe et si c'est le cas, on scroll doucement vers celui-ci,
+// on place ensuite la fonction au sein du bouton avec un onClick pour qu'elle se produit lorsque l'on clique sur l'élément
+// la const isNavbaropen va permettre de mémoriser si la navbar est ouverte ou fermée, on la rend par défaut fermé avec le false et ça
+// passera à true lorsque la navbar sera ouverte
+// la const toggleNavbar va permettre d'inverser l'état de la navbar, la passant d'ouverte à fermer et inversement (l'ajout du ! signifiant
+// not permet cela), on passe ensuite cette fonction en un onClick (correspondant également à togglenavbar à cause de la prop passé depuis
+// le header) ce qui permet d'ouvrir ou de fermer la navbar au clique sur l'élément sélectionné du header (le burger)
+// On passe également l'état isNavbarOpen à la navbar pour que la navbar sache si elle doit être affiché ou fermée

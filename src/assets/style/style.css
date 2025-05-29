@@ -257,7 +257,7 @@ header .language__button:active {
   text-shadow: 0 0 5px rgba(57, 255, 20, 0.7), 0 0 10px rgba(57, 255, 20, 0.7), 0 0 20px rgba(57, 255, 20, 0.7), 0 0 40px rgba(57, 255, 20, 0.7), 0 0 80px rgba(57, 255, 20, 0.7);
   margin-bottom: 0;
 }
-.contact .contact__info button {
+.contact .contact__info .contact__button {
   font-family: "Fira Code", monospace;
   color: #f2f2f2;
   background-color: #0a0a0a;
@@ -269,31 +269,33 @@ header .language__button:active {
   width: 20%;
   padding: 15px 10px 15px 10px;
   border-radius: 15px;
+  font-size: 13px;
+  text-decoration: none;
 }
-.contact .contact__info button:hover {
+.contact .contact__info .contact__button:hover {
   cursor: pointer;
   background-color: #1e1e1e;
 }
-.contact .contact__info button:active {
+.contact .contact__info .contact__button:active {
   animation: buttonPress 0.5s ease;
 }
 @media (max-width: 1024px) {
-  .contact .contact__info button {
+  .contact .contact__info .contact__button {
     font-size: 12px;
   }
 }
 @media (max-width: 768px) {
-  .contact .contact__info button {
+  .contact .contact__info .contact__button {
     font-size: 10px;
   }
 }
 @media (max-width: 576px) {
-  .contact .contact__info button {
+  .contact .contact__info .contact__button {
     font-size: 8px;
   }
 }
 @media (max-width: 376px) {
-  .contact .contact__info button {
+  .contact .contact__info .contact__button {
     font-size: 6px;
   }
 }
@@ -813,6 +815,9 @@ footer p {
   .contact .contact__info {
     margin-bottom: 70px;
   }
+  .contact .contact__info .contact__button {
+    width: 25%;
+  }
   .contact .net__links {
     margin-bottom: 5px;
   }
@@ -914,7 +919,7 @@ footer p {
   .contact .contact__info h2 {
     font-size: 12px;
   }
-  .contact .contact__info button {
+  .contact .contact__info .contact__button {
     width: 30%;
     padding: 10px 20px 10px 20px;
   }
@@ -978,7 +983,7 @@ footer p {
   .contact .contact__info {
     top: 40%;
   }
-  .contact .contact__info button {
+  .contact .contact__info .contact__button {
     width: 40%;
   }
   footer p {

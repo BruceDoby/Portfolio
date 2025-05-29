@@ -14,10 +14,10 @@ function Contact() {
                     <a href="https://www.linkedin.com/in/bruce-doby-67126a2b7/" target="_blank" rel="noopener noreferrer"><i className="devicon-linkedin-plain"></i></a>
                     <a href="https://github.com/BruceDoby" target="_blank" rel="noopener noreferrer"><i className="devicon-github-original"></i></a>
                 </div>
-                <button>{language === 'fr' ? 'Télécharger mon CV' : 'Download my CV'}</button>
+                <a href='/cv.txt' download className='contact__button'>{language === 'fr' ? 'Télécharger mon CV' : 'Download my CV'}</a>
             </div>
             <div className='background2'>
-                <img src={Background2} alt='background'></img>
+                <img src={Background2} alt='background' width="1440" height="730" loading="lazy"></img>
             </div>
         </div>
         </>
@@ -25,3 +25,5 @@ function Contact() {
 }
 
 export default Contact
+
+// Simple ajout de la langue pour opérer les changement de texte en fonction de la langue

@@ -11,3 +11,5 @@ createRoot(document.getElementById('root')).render(
     </LanguageProvider>
   </StrictMode>,
 )
+
+// Importation du provider qui entoure l'app pour permettre à toute l'app d'y accéder

@@ -395,6 +395,10 @@ $breakpoint-desktop2: 1440px;
     .contact {
         .contact__info {
             margin-bottom: 70px;
+
+            .contact__button {
+                width: 25%;
+            }
         }
 
         .net__links {
@@ -527,7 +531,7 @@ $breakpoint-desktop2: 1440px;
                 font-size: 12px;
             }
 
-            button {
+            .contact__button {
                 width: 30%;
                 padding: 10px 20px 10px 20px;
             }
@@ -618,7 +622,7 @@ $breakpoint-desktop2: 1440px;
         .contact__info {
             top: 40%;
 
-            button {
+            .contact__button {
                 width: 40%;
             }
         }
