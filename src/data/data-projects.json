@@ -40,7 +40,7 @@
       "id": "projet4",
       "title": "Projet 10",
       "description": "Implémenter le front-end d'une application bancaire avec React",
-      "technologies": ["React", "CSS", "JavaScript", "Node.js", "MongoDB"],
+      "technologies": ["React", "CSS", "JavaScript", "Node.js", "MongoDB", "Redux"],
       "images": [
         "/p10-1.webp",
         "/p10-2.webp",
@@ -90,7 +90,7 @@
       "id": "projet4",
       "title": "Project 10",
       "description": "Implement the front-end of a bank application with React",
-      "technologies": ["React", "CSS", "JavaScript", "Node.js", "MongoDB"],
+      "technologies": ["React", "CSS", "JavaScript", "Node.js", "MongoDB", "Redux"],
       "images": [
         "/p10-1.webp",
         "/p10-2.webp",
