@@ -30,6 +30,7 @@ function Slider({ images, delay = 3000 }) {
 
 export default Slider
 
+// useEffect sert à contrôler quand un effet se déclenche
 // la 1ere const va permettre de définir l'image actuel apparaissant sur le slider, on établit la valeur de base à 0 pour que la 1ere slide
 // soit affichée par défaut
 // le useEffect ici va s'occuper de géré l'interval de changement des images, en changeant l'index actuel grâce à une fonction présente

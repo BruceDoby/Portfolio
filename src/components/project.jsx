@@ -1,10 +1,12 @@
 import Slider from "./slider"
 import Data from '../data/data-projects.json'
 import { useContext } from "react"
-import { LanguageContext } from "./Language-Provider";
+// import { LanguageContext } from "./Language-Provider";
+import { useLanguage } from "./Language-Provider";
 
 function Projects() {
-    const { language } = useContext(LanguageContext);
+    // const { language } = useContext(LanguageContext);
+    const { language } = useLanguage();
 
     const projects = Data[language] || [];
 
