@@ -1,7 +1,7 @@
 import './assets/style/style.css'
 import Header from './Header'
 import Footer from './Footer'
-import BackgroundImage from './assets/images/Rectangle12.webp'
+import BackgroundImage from './assets/images/Rectangle12.png'
 import About from './components/about'
 import Formations from './components/formations'
 import Contact from './components/contact'
